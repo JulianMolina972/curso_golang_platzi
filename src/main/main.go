@@ -326,4 +326,8 @@ func main() {
 	pk.PrintMessage("Hola Platzi")
 	// privado no deja acceder
 	//pk.printMesage1("Hello")
+
+	/*
+		La concurrencia está alineando con múltiples cosas al mismo tiempo mientras que el paralelismo está haciendo múltiples cosas al mismo tiempo.
+	*/
 }
