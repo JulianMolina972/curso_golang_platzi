@@ -1,6 +1,7 @@
 package main
 
 import (
+	pk "curso_golang_platzi/src/mypackage"
 	"fmt"
 	"math"
 )
@@ -312,4 +313,17 @@ func main() {
 	slice = append(slice, newSlice...)
 	fmt.Println(slice)
 
+	//Modificadores de acceso
+	var myCar pk.CarPublic
+	myCar.Brand = "Ferrari"
+	myCar.Year = 2020
+	fmt.Println(myCar)
+
+	//var myOtherCar pk.carPrivate
+	//fmt.Println(myOtherCar)
+	//myOtherCar.bran
+
+	pk.PrintMessage("Hola Platzi")
+	// privado no deja acceder
+	//pk.printMesage1("Hello")
 }
