@@ -7,7 +7,9 @@ func par(number int) bool {
 }
 
 func main() {
-
-	result := par(20)
-	fmt.Println(result)
+	for i := 0; i < 100; i++ {
+		var number_i int = i
+		result := par(number_i)
+		fmt.Println(result)
+	}
 }
