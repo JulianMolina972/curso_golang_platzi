@@ -6,14 +6,12 @@ import (
 
 func main() {
 	/*
-		//Instanciar echo
 		e := echo.New()
-
-		//Ruta
 		e.GET("/", func(c echo.Context) error {
 			return c.String(http.StatusOK, "Hello, World!")
 		})
-		e.Logger.Fatal(e.Start(":1323"))
+		e.Logger.Fatal(e.Start(":1324"))
 	*/
-	fmt.Println("Hello world")
+	X := 12
+	fmt.Println(X)
 }
